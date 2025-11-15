@@ -1,8 +1,18 @@
+import Footer from './components/layout/footer/Footer'
+import Header from './components/layout/header/Header'
+import HomePage from './pages/home'
+
 function App() {
   return (
-    <>
-      <h1 className=' bg-amber-300'>Tailwind</h1>
-    </>
+    <div className='flex flex-col justify-between  '>
+      <Header />
+
+      <div className=''>
+        <HomePage />
+      </div>
+
+      <Footer />
+    </div>
   )
 }
 

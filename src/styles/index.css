@@ -1,1 +1,16 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-color-1: #060935;
+  --color-color-2: #e5e5e5cc;
+  --color-color-3: #195aff;
+  --color-color-4: #ffffff1a;
+  --color-color-5: #ffffff1a;
+  --color-color-6: #0c1436;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
